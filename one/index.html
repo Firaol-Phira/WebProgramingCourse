@@ -3,22 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="7">
     <title>Learn Web</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./ivan-aleksic-PDRFeeDniCk-unsplash.jpg">
+
+    <style>
+        .ta{
+            background: #000;
+            color: beige;
+        }
+    </style>
 </head>
 <body>
-
+<div class="hi">
     <h1 align="center">Hi guys</h1>
     <br/>
-     <h1 title="2nd heading">Hi guys</h1>
+     <h1 title="2nd heading">Hi guys</h1></div>
     <br>
     <hr width="100%" color="red">
       <hr/>
-    <h1>are you okay</h1>
+    <h1 style="color: coral;">are you okay</h1>
 
     <a href="https://apple.com" target="_blank">Apple</a>
         <img src="./ivan-aleksic-PDRFeeDniCk-unsplash.jpg" alt="Hin jiru" width="400px" height="400px" border="2" >
 
-        <table border="2" cellspacing="3" cellpadding="3">
+        <table class="ta" border="2" cellspacing="3" cellpadding="3">
             <tr>
                 <th>
                     FName
@@ -82,7 +92,42 @@
 
 
 
-        html <small>small</small>yeah
+        html <small>small</small>yeah,<strong>yes</strong>
         this text is <del>Deleted</del>
+        this text is <b>bold</b>
+        Theorem A <sup>2</sup>+B <sup>2</sup>=C <sup>2</sup>
+        chem is H<sub>2</sub>SO <sub>4</sub>
+        Text with <mark>mark</mark>
+
+
+        <h2>Fonts</h2>
+        <font size="+2" color="blue" face="Arial">this written by using fonts</font>
+
+      <iframe src="./index2.html" scrolling="no" frameborder="0"></iframe>
+      <marquee behavior="scrolling" direction="left" loop="-1">Scrolling text</marquee>
+      <div style="height: 100px; width: 100px; background: #de5454; color: chartreuse;">
+        <h1>this inside div</h1>
+      </div>
+      <form  name="formname" method="post" action="">
+        ID: <input type="text" name="id"><br><br>
+
+        Name: <input type="text" name="id"><br><br>
+
+        Password:<input type="password" name="pass"><br><br>
+
+        sex: <input type="radio" name="gen" checked="checked">Male
+             <input type="radio" name="gen" >Female <br><br>
+        Hobby:<input type="checkbox" name="ho">Movie <br><br>
+          <input type="checkbox" name="ho">Swimming <br><br>
+          <input type="submit" name="button" value="submit">
+      </form>
+      <video width="300px"height="300px" controls>
+        <source src="./Tech Video 6.mp4" type="video/mp4">
+        Does't support
+      </video>
+
+      <audio controls>
+        <source src="./1014.MP3" type="audio/MP3">
+      </audio>
 </body>
 </html>
