@@ -1,3 +1,67 @@
 .hi{
     background: #d1ff03;
 }
+
+.he{
+   width: 600px;
+   height: 100px;
+   background: #575454d8;
+   border: 2px solid white;
+}
+.in1{
+    height: 500px;
+    width:200px ;
+    background: #87adee;
+     border: 2px solid white;
+   
+}
+.in2{
+   height: 500px;
+    width:400px ;  
+    background: #ec89ed;
+     border: 2px solid white;
+
+}
+.cont{
+  
+    display: flex;
+}
+.la{
+    
+    background: #fffff0;
+}
+body{
+    background-image: url(./ivan-aleksic-PDRFeeDniCk-unsplash.jpg);
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    background-position:right top;
+
+}
+.btn:hover{
+    background: #ddf600;
+
+}
+.btn:visited{
+    background: #07e13a;
+
+}
+
+.txt{
+    text-align: justify;
+}
+p{
+    text-shadow: 2px 2px 5px rgba(245, 89, 41, 0.795);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.to{
+    list-style-type: square;
+  
+}
+
+table, th, td{
+    border:1px solid #07e13a;
+}
+table{
+    border-collapse: collapse;
+    border:1px solid #c2d41c;
+}
