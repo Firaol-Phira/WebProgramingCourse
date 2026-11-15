@@ -1,0 +1,23 @@
+.wl{
+    width: ;
+}
+.gra{
+    width: 600px;
+    height: 100px;
+    background: #756a6a;
+}
+.bl{
+    width: 200px;
+    height: 400px;
+    background: #636ae7;
+      border: white solid 2px;
+}
+.pin{  border: white solid 2px;
+    width: 400px;
+    height: 400px;
+    background: #e659ea;
+}
+.ab{
+  
+    display: flex;
+}
