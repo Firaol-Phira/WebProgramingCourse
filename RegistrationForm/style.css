@@ -1,0 +1,30 @@
+table{
+    width: 500px;
+    border: 3px solid gray;
+    border-spacing: 3px;
+    background-color: #fff;
+}
+td,th{
+    border: 1px solid gray;
+}
+th{
+    background-color: rgb(245, 245, 150);
+    color: hwb(0 0% 0%);
+}
+td{
+    background-color: deepskyblue;
+}
+.btn{
+  display: flex;
+  
+ gap: 5px;
+
+width: 100%;
+}
+.btn button{
+
+  flex: 1;
+height: 30px;
+cursor: pointer;
+
+}
