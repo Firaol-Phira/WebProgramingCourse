@@ -1,0 +1,20 @@
+.container {
+    border: 5px solid rgb(76, 76, 136);
+    padding-bottom: 30px;
+    width: 500px;
+    padding-left: 10px;
+background-color: #f3efe19e;
+  
+}
+
+.container h1 {
+    text-align: center !important;
+  color: rgb(57, 72, 100);
+    padding-bottom: 30px;
+    width: 500px;
+  
+}
+.btn button{
+background: #3a3b80;
+    color: rgb(255, 255, 255);
+}
